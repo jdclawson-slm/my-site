@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason — Designer</title>
+  <meta name="description" content="Jason is a designer crafting clean, modern digital experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo">Jason<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <p class="eyebrow reveal">Product &amp; Brand Designer</p>
+      <h1 class="reveal">
+        Hi, I'm <span class="highlight">Jason</span>.<br>
+        I design experiences<br> that feel effortless.
+      </h1>
+      <p class="hero-sub reveal">
+        I turn complex problems into clean, intuitive interfaces —
+        blending strategy, craft, and a little bit of obsession over detail.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span></span>
+        Scroll
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>UI/UX DESIGN</span><span>BRAND IDENTITY</span><span>PRODUCT STRATEGY</span><span>DESIGN SYSTEMS</span><span>PROTOTYPING</span>
+        <span>UI/UX DESIGN</span><span>BRAND IDENTITY</span><span>PRODUCT STRATEGY</span><span>DESIGN SYSTEMS</span><span>PROTOTYPING</span>
+      </div>
+    </div>
+
+    <!-- Work -->
+    <section id="work" class="work container">
+      <h2 class="section-title reveal">Selected Work</h2>
+      <p class="section-sub reveal">A few projects I'm proud of.</p>
+
+      <div class="work-grid">
+        <article class="work-card reveal">
+          <div class="work-media grad-1"></div>
+          <div class="work-info">
+            <h3>Nova Banking App</h3>
+            <p>A reimagined mobile banking experience focused on clarity and trust.</p>
+            <div class="tags"><span>UX</span><span>Mobile</span><span>Fintech</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-media grad-2"></div>
+          <div class="work-info">
+            <h3>Aurora Design System</h3>
+            <p>A scalable component library used across a suite of enterprise products.</p>
+            <div class="tags"><span>Design Systems</span><span>UI</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-media grad-3"></div>
+          <div class="work-info">
+            <h3>Fable — Brand Identity</h3>
+            <p>Full visual identity for a storytelling platform, from logo to launch site.</p>
+            <div class="tags"><span>Branding</span><span>Web</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-media grad-4"></div>
+          <div class="work-info">
+            <h3>Orbit Dashboard</h3>
+            <p>Data-dense analytics dashboard redesigned for speed and legibility.</p>
+            <div class="tags"><span>Product</span><span>SaaS</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about container">
+      <div class="about-grid">
+        <div class="about-media reveal">
+          <div class="about-photo">JL</div>
+        </div>
+        <div class="about-copy reveal">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I'm Jason, a designer who loves the space where visual craft meets
+            practical problem solving. Over the years I've worked across product
+            design, branding, and design systems — always chasing the same goal:
+            make it simple, make it feel good to use.
+          </p>
+          <p>
+            When I'm not designing, I'm probably sketching new ideas, obsessing
+            over type pairings, or exploring the latest in interaction design.
+          </p>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-num">8+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">60+</span>
+              <span class="stat-label">Projects Shipped</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">20+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills container">
+      <h2 class="section-title reveal">What I Do</h2>
+      <p class="section-sub reveal">The tools and disciplines I bring to every project.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">✦</div>
+          <h3>UI / UX Design</h3>
+          <p>Wireframes to polished, pixel-perfect interfaces built for real users.</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">◆</div>
+          <h3>Brand Identity</h3>
+          <p>Logos, color systems, and visual languages that stick in people's minds.</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">▲</div>
+          <h3>Design Systems</h3>
+          <p>Scalable, consistent component libraries teams actually love using.</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">●</div>
+          <h3>Prototyping</h3>
+          <p>Interactive prototypes that make ideas feel real before a line of code ships.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact container">
+      <h2 class="section-title reveal">Let's Work Together</h2>
+      <p class="section-sub reveal">Have a project in mind? I'd love to hear about it.</p>
+      <a href="mailto:hello@jasondesigns.com" class="contact-email reveal">hello@jasondesigns.com</a>
+      <div class="socials reveal">
+        <a href="#" aria-label="Dribbble">Dribbble</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter / X">Twitter</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Jason. Designed &amp; built with care.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
