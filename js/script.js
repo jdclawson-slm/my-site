@@ -27,17 +27,6 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 revealEls.forEach(el => revealObserver.observe(el));
 
-// Cursor glow follows pointer (desktop only)
-const glow = document.querySelector('.cursor-glow');
-if (window.matchMedia('(pointer: fine)').matches) {
-  window.addEventListener('mousemove', (e) => {
-    glow.style.left = `${e.clientX}px`;
-    glow.style.top = `${e.clientY}px`;
-  });
-} else {
-  glow.style.display = 'none';
-}
-
 // Footer year
 document.getElementById('year').textContent = new Date().getFullYear();
 
